@@ -8,9 +8,9 @@ import { SearchPanel } from '../search-panel/search-panel';
 
 export const App = () => {
   const data = [
-    { name: 'John C.', salary: 800, increase: false },
-    { name: 'Alex M.', salary: 3000, increase: true },
-    { name: 'Carl W.', salary: 15000, increase: false },
+    { name: 'John C.', salary: 800, increase: false, key: 1 },
+    { name: 'Alex M.', salary: 3000, increase: true, key: 2 },
+    { name: 'Carl W.', salary: 15000, increase: false, key: 3 },
   ];
 
   return (
