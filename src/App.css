@@ -1,6 +1,8 @@
-.App {
-  width: 1000px;
-  text-align: center;
-  margin: 0 auto;
-  background: teal;
+body {
+  font-family: 'Roboto', 'Ubuntu', 'Cantarell', 'sans-serif';
+  margin: 50px 0;
+}
+
+code {
+  font-family: 'source-code-pro', 'Menlo', 'Monaco', 'Courier New', monospace;
 }
