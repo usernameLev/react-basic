@@ -16,7 +16,7 @@ export class EmployeesListItem extends Component {
   };
 
   render() {
-    const { name, salary } = this.props;
+    const { name, salary, onDelete } = this.props;
     const { increase } = this.state;
 
     let classNames = 'list-group-item d-flex justify-content-between';
@@ -41,7 +41,7 @@ export class EmployeesListItem extends Component {
             <i className='fas fa-cookie'></i>
           </button>
 
-          <button className='btn-trash btn-sm' type='button'>
+          <button className='btn-trash btn-sm' type='button' onClick={onDelete}>
             <i className='fas fa-trash'></i>
           </button>
           <i className='fas fa-star'></i>
